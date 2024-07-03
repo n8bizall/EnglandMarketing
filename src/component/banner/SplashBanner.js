@@ -3,7 +3,6 @@ import CountUp from "react-countup";
 import TrackVisibility from "react-on-screen";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import { slugify } from "../../utils";
 import SplashData from "../../data/splash/SplashData.json";
 
 const DemoData = SplashData[0];

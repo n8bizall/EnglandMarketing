@@ -7,7 +7,6 @@ import SplashBanner from "../component/banner/SplashBanner";
 import SplashCta from "../component/cta/SplashCta";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
 import SplashData from "../data/splash/SplashData.json";
-import { slugify } from "../utils";
 
 const DemoData = SplashData[0];
 const FeatureData = SplashData[1];
