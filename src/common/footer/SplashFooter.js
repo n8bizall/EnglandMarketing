@@ -23,6 +23,7 @@ const SplashFooter = () => {
                   <a
                     href="https://www.facebook.com/england.marketing.2024/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FaFacebookF />
                   </a>
@@ -31,6 +32,7 @@ const SplashFooter = () => {
                   <Link
                     to="https://www.linkedin.com/in/tiffany-england-39374b55/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FaLinkedin />
                   </Link>

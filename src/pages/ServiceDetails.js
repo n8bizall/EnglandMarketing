@@ -1,14 +1,11 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import FooterOne from "../common/footer/FooterOne";
 import HeaderOne from "../common/header/HeaderOne";
 import BcrumbBannerOne from "../elements/breadcrumb/BcrumbBannerOne";
 import CtaLayoutOne from "../component/cta/CtaLayoutSeo";
 import SectionTitle from "../elements/section-title/SectionTitle";
-import ProjectPropOne from "../component/project/itemProp/ProjectPropOne";
 import { slugify } from "../utils";
 import ServiceData from "../data/service/ServiceMain.json";
-import ProjectData from "../data/project/ProjectData.json";
 import AboutTwo from "../component/about/AboutSEM";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
 import SEO from "../common/SEO";
@@ -16,7 +13,6 @@ import Tilty from "react-tilty";
 import SplashFooter from "../common/footer/SplashFooter";
 
 const allServiceData = ServiceData;
-const getProjectData = ProjectData;
 
 const ServiceDetails = () => {
   const params = useParams();
@@ -112,38 +108,6 @@ const ServiceDetails = () => {
             </li>
           </ul>
         </div>
-        {/* <div className="section section-padding">
-          <div className="container">
-            <SectionTitle
-              subtitle="Our Project"
-              title="Featured Designs"
-              description=""
-              textAlignment=""
-              textColor=""
-            />
-            <div className="row row-35">
-              {getProjectData.slice(0, 2).map((data) => (
-                <div className="col-md-6" key={data.id}>
-                  <ProjectPropOne projectStyle="" portfolio={data} />
-                </div>
-              ))}
-            </div>
-          </div>
-          <ul className="shape-group-16 list-unstyled">
-            <li className="shape shape-1">
-              <img
-                src={process.env.PUBLIC_URL + "/images/others/circle-2.png"}
-                alt="circle"
-              />
-            </li>
-            <li className="shape shape-3">
-              <img
-                src={process.env.PUBLIC_URL + "/images/others/bubble-1.png"}
-                alt="Line"
-              />
-            </li>
-          </ul>
-        </div> */}
         <CtaLayoutOne />
         <SplashFooter parentClass="" />
       </main>

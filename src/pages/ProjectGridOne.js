@@ -1,5 +1,4 @@
 import React from "react";
-import FooterOne from "../common/footer/FooterOne";
 import HeaderOne from "../common/header/HeaderOne";
 import BcrumbBannerOne from "../elements/breadcrumb/BcrumbBannerOne";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";

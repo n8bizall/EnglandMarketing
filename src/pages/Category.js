@@ -1,7 +1,5 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import FooterOne from "../common/footer/FooterOne";
-import HeaderOne from "../common/header/HeaderOne";
 import SEO from "../common/SEO";
 import BlogGridTwo from "../component/blog/BlogGridTwo";
 import CtaLayoutOne from "../component/cta/CtaLayoutSeo";

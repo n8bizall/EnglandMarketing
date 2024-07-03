@@ -8,7 +8,6 @@ import SplashCta from "../component/cta/SplashCta";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
 import SplashData from "../data/splash/SplashData.json";
 import { slugify } from "../utils";
-import { FaAngleRight } from "react-icons/fa";
 
 const DemoData = SplashData[0];
 const FeatureData = SplashData[1];
@@ -41,9 +40,7 @@ const Splash = () => {
               {DemoData.map((data) => (
                 <div className="col-md-6" key={data.id}>
                   <div className="single-demo">
-                    <Link
-                      to={`${process.env.PUBLIC_URL}/${slugify(data.title)}`}
-                    >
+                    <Link>
                       <span className="thumb">
                         <img
                           src={`${process.env.PUBLIC_URL}${data.height_img}`}
@@ -174,91 +171,6 @@ const Splash = () => {
                 </div>
               ))}
             </div>
-
-            {/* <div className="row justify-content-center">
-              <div className="col-xl-4 col-lg-6">
-                <div className="support-box online-docuentation splash-hover-control">
-                  <a href="https://new.emthemes.com/docs/EnglandMarketing-react/">
-                    <div className="inner">
-                      <div className="content">
-                        <div className="heading">
-                          <h4 className="title">
-                            Online
-                            <br /> Documentation
-                          </h4>
-                          <div className="icon">
-                            <img
-                              src={
-                                process.env.PUBLIC_URL +
-                                "/images/icon/icon-25.png"
-                              }
-                              alt="Thumb"
-                            />
-                          </div>
-                        </div>
-                        <p>Well organized and up to date</p>
-                      </div>
-                      <div className="btn-area">
-                        <span className="item-btn">
-                          <FaAngleRight />
-                        </span>
-                      </div>
-                    </div>
-                    <ul className="shape-group list-unstyled">
-                      <li className="shape-1">
-                        <img
-                          src={
-                            process.env.PUBLIC_URL +
-                            "/images/others/bubble-34.png"
-                          }
-                          alt="Shape"
-                        />
-                      </li>
-                      <li className="shape-2">
-                        <img
-                          src={
-                            process.env.PUBLIC_URL + "/images/others/line-8.png"
-                          }
-                          alt="Shape"
-                        />
-                      </li>
-                    </ul>
-                  </a>
-                </div>
-              </div>
-              <div className="col-xl-4 col-lg-6">
-                <div className="support-box support-ticket splash-hover-control">
-                  <a href="https://support.emthemes.com/support/">
-                    <div className="inner">
-                      <div className="content">
-                        <div className="heading">
-                          <h4 className="title">
-                            Submit A <br /> Support Ticket
-                          </h4>
-                          <div className="icon">
-                            <img
-                              src={
-                                process.env.PUBLIC_URL +
-                                "/images/icon/icon-26.png"
-                              }
-                              alt="Thumb"
-                            />
-                          </div>
-                        </div>
-                        <p>
-                          We response within 1 Business day. weekends excluded.
-                        </p>
-                      </div>
-                      <div className="btn-area">
-                        <span className="item-btn">
-                          <FaAngleRight />
-                        </span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div> */}
           </div>
           <div className="line-shape">
             <img

@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  FaFacebookF,
-  FaPinterestP,
-  FaLinkedin,
-  FaInstagram,
-  FaVimeoV,
-  FaDribbble,
-  FaBehance,
-} from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebookF, FaLinkedin } from "react-icons/fa";
 
 const BlogAuthor = ({ data }) => {
   return (
@@ -25,13 +16,21 @@ const BlogAuthor = ({ data }) => {
           <p>{data.author_para}</p>
           <ul className="social-share list-unstyled">
             <li>
-              <a href={data.social[0].facebook} target="_blank">
+              <a
+                href={data.social[0].facebook}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaFacebookF />
               </a>
             </li>
 
             <li>
-              <a href={data.social[0].linkedin} target="_blank">
+              <a
+                href={data.social[0].linkedin}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaLinkedin />
               </a>
             </li>

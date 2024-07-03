@@ -1,5 +1,4 @@
 import React from "react";
-import HeaderOne from "../common/header/HeaderOne";
 import BcrumbBannerOne from "../elements/breadcrumb/BcrumbBannerOne";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
 import SEO from "../common/SEO";
@@ -16,21 +15,6 @@ const allData = ServiceData;
 const ServiceBusiness = () => {
   const designData = allData.filter(
     (data) => slugify(data.cate ? data.cate : "") === "design"
-  );
-  const developmentData = allData.filter(
-    (data) => slugify(data.cate ? data.cate : "") === "development"
-  );
-  const marketingData = allData.filter(
-    (data) => slugify(data.cate ? data.cate : "") === "online-marketing"
-  );
-  const businessData = allData.filter(
-    (data) => slugify(data.cate ? data.cate : "") === "business"
-  );
-  const technologyData = allData.filter(
-    (data) => slugify(data.cate ? data.cate : "") === "technology"
-  );
-  const strategyData = allData.filter(
-    (data) => slugify(data.cate ? data.cate : "") === "content-strategy"
   );
 
   return (

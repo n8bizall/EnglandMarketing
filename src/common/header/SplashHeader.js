@@ -55,7 +55,7 @@ const SplashHeader = () => {
                 <li className="buy-btn">
                   <a
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noreferrer"
                     href="https://england-marketing.com/"
                     className="em-btn btn-fill-primary"
                   >

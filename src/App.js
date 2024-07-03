@@ -15,7 +15,6 @@ import BlogArchive from "./pages/Archive";
 import BlogDetails from "./pages/BlogDetails";
 
 // Service
-import ServiceOne from "./pages/ServiceVirtualManager";
 import ServiceDesign from "./pages/ServiceDevelopment";
 import ServiceDevelopment from "./pages/ServiceVirtualManager";
 import ServiceOnlineMarketing from "./pages/ServiceOnlineMarketing";

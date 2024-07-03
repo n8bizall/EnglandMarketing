@@ -1,14 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaBehance,
-  FaPhone,
-  FaFax,
-} from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebookF, FaLinkedinIn, FaPhone } from "react-icons/fa";
 
 const OffcanvasMenu = ({ offcanvasShow, offcanvasHide }) => {
   return (
@@ -81,6 +74,7 @@ const OffcanvasMenu = ({ offcanvasShow, offcanvasHide }) => {
                       <a
                         href="https://facebook.com/england.marketing.2024/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <FaFacebookF />
                       </a>
@@ -89,6 +83,7 @@ const OffcanvasMenu = ({ offcanvasShow, offcanvasHide }) => {
                       <a
                         href="https://www.linkedin.com/in/tiffany-england-39374b55/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <FaLinkedinIn />
                       </a>

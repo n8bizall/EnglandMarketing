@@ -1,5 +1,4 @@
 import React from "react";
-import Tilty from "react-tilty";
 
 const BcrumbBannerTwo = ({ title, paragraph, mainThumb }) => {
   return (
@@ -15,13 +14,7 @@ const BcrumbBannerTwo = ({ title, paragraph, mainThumb }) => {
               <p dangerouslySetInnerHTML={{ __html: paragraph }}></p>
             </div>
           </div>
-          <div className="col-lg-6">
-            {/* <div className="banner-thumbnail">
-                            <Tilty perspective={2000} reset={false}>
-                                <img src={process.env.PUBLIC_URL + mainThumb} alt="Illustration" />
-                            </Tilty>
-                        </div> */}
-          </div>
+          <div className="col-lg-6"></div>
         </div>
       </div>
       <ul className="shape-group-8 list-unstyled">

@@ -1,12 +1,9 @@
 import React from "react";
 import SEO from "../common/SEO";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
-import FooterOne from "../common/footer/FooterOne";
 import HeaderOne from "../common/header/HeaderOne";
 import BreadCrumbOne from "../elements/breadcrumb/BreadCrumbOne";
 import FormTwo from "../component/contact/FormTwo";
-import SectionTitle from "../elements/section-title/SectionTitle";
-import ContactLocation from "../component/contact/ContactLocation";
 import SplashFooter from "../common/footer/SplashFooter";
 
 const Contact = () => {

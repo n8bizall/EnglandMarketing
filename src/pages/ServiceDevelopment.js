@@ -1,5 +1,4 @@
 import React from "react";
-import HeaderOne from "../common/header/HeaderOne";
 import BcrumbBannerOne from "../elements/breadcrumb/BcrumbBannerOne";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
 import SEO from "../common/SEO";
