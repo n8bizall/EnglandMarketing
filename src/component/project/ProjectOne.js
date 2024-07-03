@@ -6,11 +6,8 @@ import ProjectData from "../../data/project/ProjectData.json";
 const AllData = ProjectData;
 
 const ProjectOne = ({ parentClass, colSize, itemShow, columnGap }) => {
-  // eslint-disable-next-line
   const [getAllItems] = useState(AllData);
-  // eslint-disable-next-line
   const [visiableProject] = useState(itemShow ? itemShow : 6);
-
   const [visibleItems, setVisibleItems] = useState([]);
 
   useEffect(() => {
