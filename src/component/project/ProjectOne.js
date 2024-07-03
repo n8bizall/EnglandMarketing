@@ -15,7 +15,7 @@ const ProjectOne = ({ parentClass, colSize, itemShow, columnGap }) => {
 
   useEffect(() => {
     setVisibleItems(getAllItems.filter((item) => item.id <= visiableProject));
-  }, []);
+  }, [getAllItems, visiableProject]);
 
   return (
     <>
