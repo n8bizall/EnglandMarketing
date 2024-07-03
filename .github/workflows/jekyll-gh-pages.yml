@@ -26,16 +26,28 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v4
-      - name: Setup Node
+        
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: '20' # Updated to use Node.js 20
+
+      - name: Display Node.js and npm version
+        run: |
+          node -v
+          npm -v
+
+      - name: List directory contents
+        run: ls -la
+
       - name: Install dependencies
         run: npm install
+
       - name: Build
         run: npm run build
+
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
