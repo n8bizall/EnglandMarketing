@@ -67,6 +67,8 @@ jobs:
         with:
           name: build
           path: build
+      - name: List build directory contents
+        run: ls -la build
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
