@@ -2,6 +2,7 @@
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
+ "homepage": "https://n8bizall.github.io/EnglandMarketing/",
 
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
