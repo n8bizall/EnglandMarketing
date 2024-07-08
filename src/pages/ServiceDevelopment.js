@@ -8,7 +8,7 @@ import ServiceProp from "../component/service/ServiceProp";
 import ServiceData from "../data/service/ServiceMain.json";
 import { slugify } from "../utils";
 import SplashFooter from "../common/footer/SplashFooter";
-import SplashHeader from "../common/header/SplashHeader";
+import HeaderOne from "../common/header/HeaderOne";
 
 const allData = ServiceData;
 
@@ -22,7 +22,7 @@ const ServiceDevelopment = () => {
       <SEO title="Service One" />
       <ColorSwitcher />
       <main className="main-wrapper">
-        <SplashHeader />
+        <HeaderOne />
         <BcrumbBannerOne
           title="Best solutions for your business"
           paragraph="Checkout our full array of services"

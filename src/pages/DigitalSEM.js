@@ -2,7 +2,7 @@ import React from "react";
 import SEO from "../common/SEO";
 import BannerSEM from "../component/banner/BannerSEM.js";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
-import SplashHeader from "../common/header/SplashHeader";
+import HeaderOne from "../common/header/HeaderOne";
 import SplashFooter from "../common/footer/SplashFooter";
 import AboutTwo from "../component/about/AboutSEM.js";
 
@@ -12,7 +12,7 @@ const DigitalSEM = () => {
       <SEO title="Search Engine Marketing" />
       <ColorSwitcher />
       <main className="main-wrapper">
-        <SplashHeader />
+        <HeaderOne />
         <BannerSEM />
 
         <AboutTwo parentClass="bg-color-light" />

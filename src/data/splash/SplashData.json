@@ -28,10 +28,34 @@
             "id": 5,
             "width_img": "/images/others/gEMcITYFRONTpAGE.png",
             "height_img": "/images/others/gEMcITYFRONTpAGE.png",
-            "title": "Corporate"
+            "title": "Professional Services"
         },
         {
             "id": 6,
+            "width_img": "/images/others/HipFrontPage.jpg",
+            "height_img": "/images/others/HipFrontPage.jpg",
+            "title": "Home Services"
+        },
+        {
+            "id": 7,
+            "width_img": "/images/others/gEMcITYFRONTpAGE.png",
+            "height_img": "/images/others/gEMcITYFRONTpAGE.png",
+            "title": "Legal"
+        },
+        {
+            "id": 8,
+            "width_img": "/images/others/gEMcITYFRONTpAGE.png",
+            "height_img": "/images/others/gEMcITYFRONTpAGE.png",
+            "title": "Pet Services"
+        },
+        {
+            "id": 9,
+            "width_img": "/images/others/HipFrontPage.jpg",
+            "height_img": "/images/others/HipFrontPage.jpg",
+            "title": "Medical Services"
+        },
+        {
+            "id": 10,
             "width_img": "",
             "height_img": "/images/others/demo-coming-wide.png",
             "title": "Your Business!"
@@ -42,26 +66,26 @@
             "id": 1,
             "icon": "/images/icon/react.png",
             "title": "Save Time",
-            "para": "by allowing a professional to handle your website, your leads, your SEO, your advertising, etc. it leaves more room for you to do what YOU do best, which is manage your business and impress your new clients."
+            "para": "By allowing a professional to handle your website, your leads, your SEO, your advertising, etc. it leaves more room for you to do what YOU do best, which is manage your business and impress your new clients."
         },
         {
             "id": 2,
             "icon": "/images/icon/code-2.png",
             "title": "More Leads",
-            "para": "the majority of my services focus on bringing in new business; long-term SEO to boost your online rankings, Google Ads management to get the best results possible for your allotted budget, and Social Media Advertising to reach the right audience for your business, at the right time."
+            "para": "The majority of our services focus on bringing in new business; long-term SEO to boost your online rankings, Google Ads management to get the best results possible for your allotted budget, and Social Media Advertising to reach the right audience for your business, at the right time."
         },
         {
             "id": 3,
             "icon": "/images/icon/sass.png",
             "title": "Improve Efficiency",
-            "para": "with my education and experience combined, I like to focus on organization and getting the best results possible for your efforts and for your budget. I make the most out of potential clients, as well as existing clients and repeat business. I specialize in target-marketing and getting max results from all angles."
+            "para": "With our education discipline and experience combined, we focus on organization and getting the best results possible for your efforts and for your budget. We make the most out of potential clients, as well as existing clients and repeat business. Specializing in target-marketing and getting max results from all angles."
         },
        
         {
             "id": 4,
             "icon": "/images/icon/loading.png",
             "title": "Better Rankings",
-            "para": "almost all of the work I do will make your business more popular online and in front of your target audience. My SEO services include reputation management, online business listing creation & management, blog and content writing, back-end SEO work and getting your business on top according to Google's algorithm."
+            "para": "Almost all of the work we do will make your business more popular online and in front of your target audience. Our SEO services include reputation management, online business listing creation & management, blog and content writing, back-end SEO work and getting your business on top according to ever changingGoogle's algorithm."
         },
         {
             "id": 5,
@@ -73,7 +97,7 @@
             "id": 6,
             "icon": "/images/icon/icon-13.png",
             "title": "Modern <br> Design",
-            "para": "EnglandMarketing is a modern creative design for Creative, Digital, Corporate agencies, etc. EnglandMarketing is a perfect solution for your digital agency"
+            "para": "England Marketing is a modern creative design for Creative, Digital, Corporate agencies, etc. England Marketing is a perfect solution for your digital agency"
         },
         {
             "id": 7,

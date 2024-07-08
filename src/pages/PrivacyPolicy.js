@@ -1,5 +1,5 @@
 import React from "react";
-import SplashHeader from "../common/header/SplashHeader";
+import HeaderOne from "../common/header/HeaderOne";
 import BreadCrumbOne from "../elements/breadcrumb/BreadCrumbOne";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
 import SEO from "../common/SEO";
@@ -12,7 +12,7 @@ const PrivacyPolicy = () => {
       <SEO title="Privacy Policy" />
       <ColorSwitcher />
       <main className="main-wrapper">
-        <SplashHeader />
+        <HeaderOne />
         <BreadCrumbOne title="Privacy Policy" page="Privacy Policy" />
         <div className="section-padding privacy-policy-area">
           <div className="container">
@@ -21,7 +21,7 @@ const PrivacyPolicy = () => {
                 <div className="privacy-policy-content">
                   <div className="section-title">
                     <h5 className="title">
-                      This Privacy policy was published on September 10th, 2021.
+                      This Privacy policy was published on July 10th, 2024.
                     </h5>
                   </div>
                   <h4>Intro</h4>

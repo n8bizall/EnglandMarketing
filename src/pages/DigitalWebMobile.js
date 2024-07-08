@@ -1,5 +1,5 @@
 import React from "react";
-import SplashHeader from "../common/header/SplashHeader";
+import HeaderOne from "../common/header/HeaderOne";
 import SEO from "../common/SEO";
 
 import BannerWebsites from "../component/banner/BannerWebsites";
@@ -14,7 +14,7 @@ const DigitalWebMobile = () => {
       <SEO title="Websites, Mobile, and Logo Design" />
       <ColorSwitcher />
       <main className="main-wrapper">
-        <SplashHeader />
+        <HeaderOne />
         <BannerWebsites />
         <TestimonialSocial />
         <SocialMediaCta />

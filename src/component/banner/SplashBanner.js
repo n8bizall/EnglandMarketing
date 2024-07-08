@@ -1,29 +1,9 @@
 import React from "react";
-import CountUp from "react-countup";
-import TrackVisibility from "react-on-screen";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import SplashData from "../../data/splash/SplashData.json";
 
 const DemoData = SplashData[0];
-
-const CountData = [
-  {
-    id: 1,
-    title: "Published Websites (More Coming)",
-    count_num: "5",
-  },
-  {
-    id: 2,
-    title: "Social Media Posts",
-    count_num: "45000",
-  },
-  {
-    id: 3,
-    title: "Marketing Manager",
-    count_num: "303",
-  },
-];
 
 var slideSettings = {
   infinite: true,
@@ -59,25 +39,6 @@ const SplashBanner = () => {
               <h1 className="title">
                 Elevate Your Business <span> More Leads</span> Less Hassle
               </h1>
-              <div className="site-element-count">
-                {CountData.map((data) => (
-                  <div className="count-box" key={data.id}>
-                    <span className="count-title">{data.title}</span>
-                    <div className="count-number h2">
-                      <TrackVisibility once>
-                        {({ isVisible }) => (
-                          <span className="number count">
-                            {isVisible ? (
-                              <CountUp end={data.count_num} duration={1} />
-                            ) : null}
-                          </span>
-                        )}
-                      </TrackVisibility>
-                      <span className="symbol">+</span>
-                    </div>
-                  </div>
-                ))}
-              </div>
             </div>
           </div>
         </div>

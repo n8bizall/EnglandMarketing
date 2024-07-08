@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SplashFooter from "../common/footer/SplashFooter";
-import SplashHeader from "../common/header/SplashHeader";
 import SEO from "../common/SEO";
 import SplashBanner from "../component/banner/SplashBanner";
 import SplashCta from "../component/cta/SplashCta";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
 import SplashData from "../data/splash/SplashData.json";
+import HeaderOne from "../common/header/HeaderOne";
 
 const DemoData = SplashData[0];
 const FeatureData = SplashData[1];
@@ -17,7 +17,7 @@ const Splash = () => {
       <SEO title="England Marketing and Web Development" />
       <ColorSwitcher />
       <main className="main-wrapper">
-        <SplashHeader />
+        <HeaderOne />
         <SplashBanner />
 
         <div className="section main-demo-area bg-color-light" id="splash-demo">
@@ -62,7 +62,7 @@ const Splash = () => {
             </li>
             <li className="shape-2">
               <img
-                src={process.env.PUBLIC_URL + "/images/others/line-4.png"}
+                src={process.env.PUBLIC_URL + "/images/others/line-8.png"}
                 alt="Shape"
               />
             </li>

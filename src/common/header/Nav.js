@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Nav() {
-  const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="mainmenu-nav">
-      
       <ul className="mainmenu">
         <li className="menu-item-has-children">
           <Link to={process.env.PUBLIC_URL + "/seo"}>SEO MARKETING</Link>

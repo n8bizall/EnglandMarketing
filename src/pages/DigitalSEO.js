@@ -4,7 +4,7 @@ import AboutOne from "../component/about/AboutOne";
 import BannerSEO from "../component/banner/BannerSEO";
 import CtaLayoutSeo from "../component/cta/CtaLayoutSeo";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
-import SplashHeader from "../common/header/SplashHeader";
+import HeaderOne from "../common/header/HeaderOne";
 import SplashFooter from "../common/footer/SplashFooter";
 
 const DigitalSEO = () => {
@@ -13,7 +13,7 @@ const DigitalSEO = () => {
       <SEO title="England Marketing and Web Development" />
       <ColorSwitcher />
       <main className="main-wrapper">
-        <SplashHeader />
+        <HeaderOne />
         <BannerSEO />
         <AboutOne />
         <CtaLayoutSeo />

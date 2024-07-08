@@ -15,22 +15,27 @@ const HeaderOne = () => {
   const sticky = StickyHeader(100);
 
   const MobileMenuHandler = () => {
-    document.querySelector(".mobilemenu-popup").classList.toggle("show");
-    document.querySelector("body").classList.toggle("mobilemenu-show");
+    const mobileMenu = document.querySelector(".mobilemenu-popup");
+    const body = document.querySelector("body");
 
-    var elements = document.querySelectorAll(
-      ".mobilemenu-popup .menu-item-has-children > a"
-    );
+    if (mobileMenu && body) {
+      mobileMenu.classList.toggle("show");
+      body.classList.toggle("mobilemenu-show");
 
-    for (var i in elements) {
-      if (elements.hasOwnProperty(i)) {
-        elements[i].onclick = function () {
-          this.parentElement
-            .querySelector(".em-submenu")
-            .classList.toggle("active");
-          this.classList.toggle("open");
-        };
-      }
+      const menuItems = document.querySelectorAll(
+        ".mobilemenu-popup .menu-item-has-children > a"
+      );
+      menuItems.forEach((item) => {
+        item.addEventListener("click", function (event) {
+          // event.preventDefault();
+
+          const submenu = this.parentElement.querySelector(".em-submenu");
+          if (submenu) {
+            submenu.classList.toggle("active");
+            this.classList.toggle("open");
+          }
+        });
+      });
     }
   };
 

@@ -61,13 +61,13 @@ const AboutOne = () => {
         </li>
         <li className="shape shape-2">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/line-4.png"}
+            src={process.env.PUBLIC_URL + "/images/others/line-8.png"}
             alt="line"
           />
         </li>
         <li className="shape shape-3">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/line-5.png"}
+            src={process.env.PUBLIC_URL + "/images/others/line-6.png"}
             alt="line"
           />
         </li>
