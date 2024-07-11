@@ -10,13 +10,14 @@
             "id": 2,
             "width_img": "/images/others/blueMedFrontPage.jpg",
             "height_img": "/images/others/blueMedFrontPage.jpg",
-            "title": "Beauty"
+            "title": "Medical Services"
         },
         {
             "id": 3,
-            "width_img": "/images/banner/korrect.jpg",
-            "height_img": "/images/banner/korrect.jpg",
-            "title": "Home Services"
+          
+            "width_img": "/images/others/gEMcITYFRONTpAGE.png",
+            "height_img": "/images/others/gEMcITYFRONTpAGE.png",
+            "title": "Beauty"
         },
         {
             "id": 4,
@@ -26,9 +27,9 @@
         },
         {
             "id": 5,
-            "width_img": "/images/banner/lineXofB.jpg",
-            "height_img": "/images/banner/lineXofB.jpg",
-            "title": "Professional Services"
+            "width_img": "/images/others/huntsVegas.jpg",
+            "height_img": "/images/others/huntsVegas.jpg",
+            "title": "Event Marketing"
         },
         {
             "id": 6,
@@ -50,9 +51,9 @@
         },
         {
             "id": 9,
-            "width_img": "/images/others/blueMedFrontPage.jpg",
-            "height_img": "/images/others/blueMedFrontPage.jpg",
-            "title": "Medical Services"
+            "width_img": "/images/banner/korrect.jpg",
+            "height_img": "/images/banner/korrect.jpg",
+            "title": "Home Services"
         },
         {
             "id": 10,
