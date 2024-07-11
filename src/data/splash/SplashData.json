@@ -4,7 +4,7 @@
             "id": 1,
             "width_img": "/images/others/TGfrontPage.png",
             "height_img": "/images/others/TGfrontPage.png",
-            "title": "Mobile Development"
+            "title": "Tattoo Artists"
         },
         {
             "id": 2,
@@ -14,9 +14,9 @@
         },
         {
             "id": 3,
-            "width_img": "/images/others/PermFrontPage.png",
-            "height_img": "/images/others/PermFrontPage.png",
-            "title": "Small Business"
+            "width_img": "/images/banner/korrect.jpg",
+            "height_img": "/images/banner/korrect.jpg",
+            "title": "Home Services"
         },
         {
             "id": 4,
@@ -26,8 +26,8 @@
         },
         {
             "id": 5,
-            "width_img": "/images/others/gEMcITYFRONTpAGE.png",
-            "height_img": "/images/others/gEMcITYFRONTpAGE.png",
+            "width_img": "/images/banner/lineXofB.jpg",
+            "height_img": "/images/banner/lineXofB.jpg",
             "title": "Professional Services"
         },
         {
@@ -38,20 +38,20 @@
         },
         {
             "id": 7,
-            "width_img": "/images/others/gEMcITYFRONTpAGE.png",
-            "height_img": "/images/others/gEMcITYFRONTpAGE.png",
+            "width_img": "/images/banner/law.jpg",
+            "height_img": "/images/banner/law.jpg",
             "title": "Legal"
         },
         {
             "id": 8,
-            "width_img": "/images/others/gEMcITYFRONTpAGE.png",
-            "height_img": "/images/others/gEMcITYFRONTpAGE.png",
+            "width_img": "/images/banner/poochiePalace.jpg",
+            "height_img": "/images/banner/poochiePalace.jpg",
             "title": "Pet Services"
         },
         {
             "id": 9,
-            "width_img": "/images/others/HipFrontPage.jpg",
-            "height_img": "/images/others/HipFrontPage.jpg",
+            "width_img": "/images/others/blueMedFrontPage.jpg",
+            "height_img": "/images/others/blueMedFrontPage.jpg",
             "title": "Medical Services"
         },
         {

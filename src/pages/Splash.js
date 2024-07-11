@@ -14,7 +14,7 @@ const FeatureData = SplashData[1];
 const Splash = () => {
   return (
     <>
-      <SEO title="England Marketing and Web Development" />
+      <SEO title="Web and Mobile Development" />
       <ColorSwitcher />
       <main className="main-wrapper">
         <HeaderOne />

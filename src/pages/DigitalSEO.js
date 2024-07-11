@@ -10,7 +10,7 @@ import SplashFooter from "../common/footer/SplashFooter";
 const DigitalSEO = () => {
   return (
     <>
-      <SEO title="England Marketing and Web Development" />
+      <SEO title="SEO" />
       <ColorSwitcher />
       <main className="main-wrapper">
         <HeaderOne />

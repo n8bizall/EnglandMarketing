@@ -12,7 +12,7 @@ import AboutSocialMedia from "../component/about/AboutSocialMedia";
 const DigitalSocialMedia = () => {
   return (
     <>
-      <SEO title="Home Startup" />
+      <SEO title="Social Media Ads" />
       <ColorSwitcher />
       <main className="main-wrapper">
         <SplashHeader />

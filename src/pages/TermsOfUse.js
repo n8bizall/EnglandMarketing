@@ -44,7 +44,7 @@ const TermsOfUse = () => {
                     metus diam, hendrerit in purus fringilla, accumsan bibendum
                     sapien. Nunc non facilisis sem.
                   </p>
-                  <h4>About EnglandMarketing</h4>
+                  <h4>About England Marketing</h4>
                   <p>
                     In dapibus, nibh sit amet pulvinar convallis, massa nunc
                     tincidunt nunc, a pretium risus nulla ut dui. Ut ut
