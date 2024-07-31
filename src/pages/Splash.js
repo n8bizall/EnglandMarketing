@@ -25,7 +25,9 @@ const Splash = () => {
             <div className="section-heading heading-left">
               <div className="row align-items-center">
                 <div className="col-xl-6 col-lg-7">
-                  <h2 className="title">We custom tailor your digital brand</h2>
+                  <h2 className="title">
+                    We help to bring your brand to life!
+                  </h2>
                 </div>
                 <div className="col-xl-4 col-lg-5 offset-xl-2">
                   <p>
@@ -77,18 +79,21 @@ const Splash = () => {
             <div className="section-heading heading-light-left">
               <div className="row align-items-center">
                 <div className="col-lg-6">
-                  <h2 className="title">We have Impressive Features</h2>
+                  <h2 className="title">
+                    Here is how outsourcing for your digital marketing can
+                    benefit your brand.
+                  </h2>
                 </div>
                 <div className="col-lg-5 col-md-8">
                   <p>
                     Our specialists work with you to find the right combination
-                    for your business
+                    for your business.
                   </p>
                 </div>
               </div>
             </div>
             <div className="row">
-              {FeatureData.slice(0, 9).map((data) => (
+              {FeatureData.slice(0, 6).map((data) => (
                 <div className="col-xl-4 col-md-6" key={data.id}>
                   <div className="services-grid">
                     <div className="thumbnail">

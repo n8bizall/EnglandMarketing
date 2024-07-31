@@ -8,7 +8,8 @@ const SplashCta = () => {
         <div className="call-to-action">
           <div className="section-heading heading-light">
             <h2 className="title">
-              Let’s Transform <br /> Your Business Today!
+              Let's Elevate Your Brand! <br /> Reach out to schedule your free
+              consultation in-person, by phone, or video conference.
             </h2>
             <p>
               Need something? Just tell us what you want by{" "}
@@ -18,7 +19,7 @@ const SplashCta = () => {
               to={process.env.PUBLIC_URL + "/contact"}
               className="em-btn btn-large btn-fill-white"
             >
-              Let’s Talk
+              Contact
             </Link>
           </div>
         </div>

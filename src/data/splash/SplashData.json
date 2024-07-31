@@ -10,20 +10,20 @@
             "id": 2,
             "width_img": "/images/others/blueMedFrontPage.jpg",
             "height_img": "/images/others/blueMedFrontPage.jpg",
-            "title": "Medical Services"
+            "title": "Health & Beauty"
         },
         {
             "id": 3,
           
             "width_img": "/images/others/gEMcITYFRONTpAGE.png",
             "height_img": "/images/others/gEMcITYFRONTpAGE.png",
-            "title": "Beauty"
+            "title": "Health & Beauty"
         },
         {
             "id": 4,
             "width_img": "/images/others/HipFrontPage.jpg",
             "height_img": "/images/others/HipFrontPage.jpg",
-            "title": "Art Portfolios"
+            "title": "Artists"
         },
         {
             "id": 5,
@@ -98,22 +98,22 @@
             "id": 6,
             "icon": "/images/icon/icon-13.png",
             "title": "Modern <br> Design",
-            "para": "England Marketing is a modern creative design for Creative, Digital, Corporate agencies, etc. England Marketing is a perfect solution for your digital agency"
+            "para": "England Marketing offers a contemporary creative design ideal for Creative, Digital, and Corporate agencies. It provides the perfect solution for your digital agency's needs."
         },
         {
-            "id": 7,
+            "id": 71,
             "icon": "/images/icon/code.png",
             "title": "Well Organized  <br> Codes",
             "para": "The coding structure of our items is organized so other developers can easily recognize the pattern and make updates as needed."
         },
         {
-            "id": 8,
+            "id": 81,
             "icon": "/images/icon/icon-20.png",
             "title": "Website <br> Overhaul",
             "para": "Updating your website is a strategic investment that can lead to enhanced user experience, improved performance, increased security, and better alignment with current digital trends and standards. This, in turn, can drive more traffic, improve customer satisfaction, and ultimately, boost business growth."
         },
         {
-            "id": 9,
+            "id": 91,
             "icon": "/images/icon/icon-21.png",
             "title": "Mobile <br> Development",
             "para": "Mobile apps allow businesses to collect valuable user data, enabling better insights into customer behavior and preferences, which can inform marketing strategies and product development."

@@ -37,7 +37,8 @@ const SplashBanner = () => {
           <div className="col-lg-10">
             <div className="banner-content">
               <h1 className="title">
-                Elevate Your Business <span> More Leads</span> Less Hassle
+                Elevate your brand. <br></br>
+                <span> More leads,</span> less hassle.
               </h1>
             </div>
           </div>
