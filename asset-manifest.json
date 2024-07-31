@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/EnglandMarketing/static/css/main.fba77beb.css",
-    "main.js": "/EnglandMarketing/static/js/main.564ca93a.js",
+    "main.css": "/EnglandMarketing/static/css/main.2e987fb0.css",
+    "main.js": "/EnglandMarketing/static/js/main.8e3c138e.js",
     "static/js/453.2a82e7ac.chunk.js": "/EnglandMarketing/static/js/453.2a82e7ac.chunk.js",
     "index.html": "/EnglandMarketing/index.html",
-    "main.fba77beb.css.map": "/EnglandMarketing/static/css/main.fba77beb.css.map",
-    "main.564ca93a.js.map": "/EnglandMarketing/static/js/main.564ca93a.js.map",
+    "main.2e987fb0.css.map": "/EnglandMarketing/static/css/main.2e987fb0.css.map",
+    "main.8e3c138e.js.map": "/EnglandMarketing/static/js/main.8e3c138e.js.map",
     "453.2a82e7ac.chunk.js.map": "/EnglandMarketing/static/js/453.2a82e7ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fba77beb.css",
-    "static/js/main.564ca93a.js"
+    "static/css/main.2e987fb0.css",
+    "static/js/main.8e3c138e.js"
   ]
 }
