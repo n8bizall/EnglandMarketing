@@ -830,6 +830,26 @@
             @media #{$md-layout}{
                 display: none;
             }
+        }&.shape-22 {
+            top: 100px;
+            right: 100px;
+            text-align: right;
+            @media #{$laptop-device} {
+                top: 120px;
+                right: 15px;
+                img {
+                    width: 90%;
+                }
+            }
+            @media #{$smlg-device}{
+                right: 15px;
+                img {
+                    width: 50%;
+                }
+            }
+            @media #{$md-layout}{
+                display: none;
+            }
         }
         &.shape-3 {
             right: 100px;

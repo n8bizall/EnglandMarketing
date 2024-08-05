@@ -68,7 +68,7 @@ const PricingOne = () => {
                 </div>
                 <div className="pricing-btn">
                   <Link to="#" className="em-btn btn-large btn-borderd">
-                    Get Started Today
+                    Learn More
                   </Link>
                 </div>
               </div>

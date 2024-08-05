@@ -8,7 +8,7 @@ const CtaLayoutSeo = () => {
         <div className="call-to-action">
           <div className="section-heading heading-light">
             <span className="subtitle">Let's Work Together</span>
-            <h2 className="title">Need a successful digital SEO campaign?</h2>
+            <h2 className="title">Need a successful SEO campaign?</h2>
             <Link
               to={process.env.PUBLIC_URL + "/contact"}
               className="em-btn btn-large btn-fill-white"
@@ -63,7 +63,7 @@ const CtaLayoutSeo = () => {
       <ul className="list-unstyled shape-group-9">
         <li className="shape shape-1">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/bubble-12.png"}
+            src={process.env.PUBLIC_URL + "/images/others/bubble12.png"}
             alt="Comments"
           />
         </li>
@@ -75,13 +75,13 @@ const CtaLayoutSeo = () => {
         </li>
         <li className="shape shape-3">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/bubble-13.png"}
+            src={process.env.PUBLIC_URL + "/images/others/bubble13.png"}
             alt="Comments"
           />
         </li>
         <li className="shape shape-4">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/bubble-14.png"}
+            src={process.env.PUBLIC_URL + "/images/others/bubble14.png"}
             alt="Comments"
           />
         </li>
@@ -93,7 +93,7 @@ const CtaLayoutSeo = () => {
         </li>
         <li className="shape shape-6">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/bubble-15.png"}
+            src={process.env.PUBLIC_URL + "/images/others/bubble55.png"}
             alt="Comments"
           />
         </li>

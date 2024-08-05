@@ -21,7 +21,7 @@ const BcrumbBannerOne = ({ title, paragraph, styleClass, mainThumb }) => {
         </li>
         <li className="shape shape-2">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/bubble-21.png"}
+            src={process.env.PUBLIC_URL + "/images/others/bubble29.png"}
             alt="Bubble"
           />
         </li>

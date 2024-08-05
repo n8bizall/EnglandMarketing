@@ -8,7 +8,7 @@ import ServiceProp from "../component/service/ServiceProp";
 import ServiceData from "../data/service/ServiceMain.json";
 import { slugify } from "../utils";
 import SplashFooter from "../common/footer/SplashFooter";
-import SplashHeader from "../common/header/SplashHeader";
+import HeaderOne from "../common/header/HeaderOne";
 
 const allData = ServiceData;
 
@@ -22,7 +22,7 @@ const ServiceContentStrategy = () => {
       <SEO title="Service One" />
       <ColorSwitcher />
       <main className="main-wrapper">
-        <SplashHeader />
+        <HeaderOne />
         <BcrumbBannerTwo
           title="Content Strategy For Any Size Business"
           paragraph="A well-crafted content strategy is essential for businesses of all sizes. It involves planning, creating, and distributing valuable and consistent content to attract and retain a clearly defined audience."

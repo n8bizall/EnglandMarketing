@@ -3,7 +3,7 @@ import HeaderOne from "../common/header/HeaderOne";
 import CtaLayoutOne from "../component/cta/CtaLayoutSeo";
 import BreadCrumbOne from "../elements/breadcrumb/BreadCrumbOne";
 import BlogSidebar from "../component/blog/BlogSidebar";
-import BlogGridOne from "../component/blog/BlogGridOne";
+import BlogListOne from "../component/blog/BlogListOne";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
 import SEO from "../common/SEO";
 import SplashFooter from "../common/footer/SplashFooter";
@@ -20,7 +20,7 @@ const BlogGridView = () => {
           <div className="container">
             <div className="row row-40">
               <div className="col-lg-8">
-                <BlogGridOne />
+                <BlogListOne />
               </div>
               <div className="col-lg-4">
                 <BlogSidebar />

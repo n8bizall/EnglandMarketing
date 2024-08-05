@@ -4,28 +4,23 @@ import SectionTitle from "../../elements/section-title/SectionTitle";
 const Datas = [
   {
     id: 1,
-    title: "Expanding Market Reach",
-    para: "As a niche craft brewery, reaching a wider audience was a constant struggle. England Marketing stepped in with a creative social media campaign that showcased our unique brewing process and the stories behind our beers. They organized virtual brewery tours and engaged beer enthusiasts through interactive polls and contests. The result was phenomenal – our online following tripled, and we started receiving orders from across the country. England Marketing helped us tap into markets we never thought possible!",
+    title: "Audience Engagement",
+    para: "Social media provides a direct channel to engage with your audience. It's a dynamic platform where you can build relationships, foster brand loyalty, and receive real-time feedback",
   },
   {
     id: 2,
-    title: "Crisis Management and Reputation Repair",
-    para: "When our company faced a PR crisis, we were at a loss on how to handle the backlash. England Marketing's crisis management expertise on social media was a lifesaver. They quickly crafted a transparent communication plan, addressing customer concerns and showcasing our corrective actions. Their strategic use of social media turned the tide in our favor, and we saw a significant improvement in customer sentiment within weeks. England Marketing not only helped us regain our reputation but also strengthened our relationship with our customers.",
+    title: "Brand Visibility and Awareness",
+    para: "Social media is a powerful tool for increasing brand visibility. It allows you to showcase your products or services, share your brand story, and reach a broader audience through targeted content and campaigns.",
   },
   {
     id: 3,
     title: "Driving Website Traffic",
-    para: "Our website was getting very little traffic, which impacted our sales. England Marketing devised a compelling social media strategy that included regular blog posts, infographics, and video content linked back to our site. They also implemented targeted ads that brought in the right audience. The results were astounding – a 300% increase in website visits and a 45% boost in sales conversions. Thanks to England Marketing, our online presence is now stronger than eve",
+    para: "Engaging content on social media can drive traffic to your website, increasing the likelihood of conversions. Social platforms serve as a bridge between your audience and your website, facilitating seamless navigation and being a catalyst for your SEO efforts.",
   },
   {
     id: 4,
-    title: "Launching New Products",
-    para: "We were nervous about launching our new skincare line, unsure of how it would be received. England Marketing took charge of our social media launch campaign, creating buzz through teasers, influencer reviews, and live unboxing events. Their strategy created a huge anticipation and excitement around our products. On launch day, we sold out within hours! The campaign’s success exceeded our expectations and set a new benchmark for our future launches.",
-  },
-  {
-    id: 5,
-    title: "Increasing Event Attendance",
-    para: "Our annual tech conference was struggling with low attendance. England Marketing transformed our promotional efforts by leveraging social media. They created engaging event content, partnered with industry influencers, and ran targeted ad campaigns to attract attendees. They even managed live updates and interactive sessions during the event. The conference saw a 50% increase in attendance compared to previous years, and the online engagement was off the charts. England Marketing turned our event into a major success!",
+    title: "Staying Competitive",
+    para: "In today's digital landscape, a strong social media presence is not just good to have, it is essential for staying competitive. Businesses that actively leverage social platforms not only reach wider audiences but also stay top-of-mind among their target demographic.",
   },
 ];
 
@@ -35,7 +30,7 @@ const AboutSocialMedia = () => {
       <div className="container">
         <SectionTitle
           subtitle="Here are some problems we solve"
-          title="Why should you work with us?"
+          title="Why choose England Marketing?"
           description=""
           textAlignment="heading-left heading-light-left mb--100"
           textColor=""

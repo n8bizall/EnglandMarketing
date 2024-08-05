@@ -41,19 +41,19 @@ const ProjectOne = ({ parentClass, colSize, itemShow, columnGap }) => {
         <ul className="shape-group-7 list-unstyled">
           <li className="shape shape-1">
             <img
-              src={process.env.PUBLIC_URL + "/images/others/circle-2.png"}
+              src={process.env.PUBLIC_URL + "/images/others/bubble8.png"}
               alt="circle"
             />
           </li>
           <li className="shape shape-2">
             <img
-              src={process.env.PUBLIC_URL + "/images/others/bubble-15.png"}
+              src={process.env.PUBLIC_URL + "/images/others/bubble14.png"}
               alt="Line"
             />
           </li>
           <li className="shape shape-3">
             <img
-              src={process.env.PUBLIC_URL + "/images/others/bubble-13.png"}
+              src={process.env.PUBLIC_URL + "/images/others/bubble13.png"}
               alt="Line"
             />
           </li>

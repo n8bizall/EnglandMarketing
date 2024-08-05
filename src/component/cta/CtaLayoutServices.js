@@ -63,7 +63,7 @@ const CtaLayoutServices = () => {
       <ul className="list-unstyled shape-group-9">
         <li className="shape shape-1">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/bubble-12.png"}
+            src={process.env.PUBLIC_URL + "/images/others/bubble12.png"}
             alt="Comments"
           />
         </li>
@@ -75,13 +75,13 @@ const CtaLayoutServices = () => {
         </li>
         <li className="shape shape-3">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/bubble-13.png"}
+            src={process.env.PUBLIC_URL + "/images/others/bubble13.png"}
             alt="Comments"
           />
         </li>
         <li className="shape shape-4">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/bubble-14.png"}
+            src={process.env.PUBLIC_URL + "/images/others/bubble14.png"}
             alt="Comments"
           />
         </li>

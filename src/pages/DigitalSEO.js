@@ -6,6 +6,7 @@ import CtaLayoutSeo from "../component/cta/CtaLayoutSeo";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
 import HeaderOne from "../common/header/HeaderOne";
 import SplashFooter from "../common/footer/SplashFooter";
+import TestimonialSEO from "../component/testimonial/TestimonialSEO";
 
 const DigitalSEO = () => {
   return (
@@ -16,6 +17,7 @@ const DigitalSEO = () => {
         <HeaderOne />
         <BannerSEO />
         <AboutOne />
+        <TestimonialSEO />
         <CtaLayoutSeo />
         <SplashFooter parentClass="" />
       </main>

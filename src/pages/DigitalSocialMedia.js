@@ -1,5 +1,5 @@
 import React from "react";
-import SplashHeader from "../common/header/SplashHeader";
+import HeaderOne from "../common/header/HeaderOne";
 import SEO from "../common/SEO";
 
 import BannerSocialMedia from "../component/banner/BannerSocialMedia";
@@ -15,7 +15,7 @@ const DigitalSocialMedia = () => {
       <SEO title="Social Media Ads" />
       <ColorSwitcher />
       <main className="main-wrapper">
-        <SplashHeader />
+        <HeaderOne />
         <BannerSocialMedia />
         <AboutSocialMedia />
         <TestimonialSocial />

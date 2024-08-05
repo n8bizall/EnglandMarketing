@@ -4,7 +4,9 @@ import BannerSEM from "../component/banner/BannerSEM.js";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
 import HeaderOne from "../common/header/HeaderOne";
 import SplashFooter from "../common/footer/SplashFooter";
-import AboutTwo from "../component/about/AboutSEM.js";
+import AboutSEM from "../component/about/AboutSEM.js";
+import CtaLayoutSem from "../component/cta/CtaLayoutSem";
+import TestimonialSEM from "../component/testimonial/TestimonialSEM";
 
 const DigitalSEM = () => {
   return (
@@ -14,9 +16,9 @@ const DigitalSEM = () => {
       <main className="main-wrapper">
         <HeaderOne />
         <BannerSEM />
-
-        <AboutTwo parentClass="bg-color-light" />
-
+        <AboutSEM parentClass="bg-color-light" />
+        <TestimonialSEM />
+        <CtaLayoutSem />
         <SplashFooter parentClass="" />
       </main>
     </>

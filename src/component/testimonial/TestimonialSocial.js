@@ -7,20 +7,19 @@ const TestimonialSocial = () => {
     <div className="section section-padding">
       <div className="container">
         <SectionTitle
-          subtitle="Testimonial"
-          title="From getting started"
+          title="From getting started..."
           description="To every detail we will handle all of your social media management."
           textAlignment="heading-left"
           textColor=""
         />
         <div className="row">
-          <TestimonialPropOne colSize="col-lg-4" itemShow="3" />
+          <TestimonialPropOne colSize="col-lg-4" itemShow={3} startIndex={6} />
         </div>
       </div>
       <ul className="shape-group-4 list-unstyled">
         <li className="shape-1">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/bubble-1.png"}
+            src={process.env.PUBLIC_URL + "/images/others/bubble4Small.png"}
             alt="Bubble"
           />
         </li>

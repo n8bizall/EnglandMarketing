@@ -36,7 +36,7 @@ const AboutOne = () => {
 
           <div className="col-xl-5 col-lg-6 offset-xl-1">
             <div className="contact-form-box">
-              <h3 className="title">Get a free SEO quote now</h3>
+              <h3 className="title">What goes into seo?</h3>
               <ul>
                 <li>Keyword research</li>
                 <li>Website setup for SEO </li>

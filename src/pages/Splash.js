@@ -25,9 +25,7 @@ const Splash = () => {
             <div className="section-heading heading-left">
               <div className="row align-items-center">
                 <div className="col-xl-6 col-lg-7">
-                  <h2 className="title">
-                    We help to bring your brand to life!
-                  </h2>
+                  <h2 className="title">We help bring your brand to life!</h2>
                 </div>
                 <div className="col-xl-4 col-lg-5 offset-xl-2">
                   <p>
@@ -129,7 +127,7 @@ const Splash = () => {
             </li>
             <li className="shape shape-3">
               <img
-                src={process.env.PUBLIC_URL + "/images/others/bubble-5.png"}
+                src={process.env.PUBLIC_URL + "/images/others/bubbleGrey.png"}
                 alt="Circle"
               />
             </li>
@@ -144,7 +142,7 @@ const Splash = () => {
             <div className="section-heading heading-left">
               <div className="row align-items-center">
                 <div className="col-xl-6 col-lg-7">
-                  <h2 className="title">Why would you choose us?</h2>
+                  <h2 className="title">Why choose us?</h2>
                 </div>
                 <div className="col-xl-4 col-lg-5 offset-xl-2">
                   <p>

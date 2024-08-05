@@ -20,7 +20,7 @@ const BlogOne = () => {
       <ul className="shape-group-1 list-unstyled">
         <li className="shape shape-1">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/bubble-1.png"}
+            src={process.env.PUBLIC_URL + "/images/others/bubble4Small.png"}
             alt="bubble"
           />
         </li>

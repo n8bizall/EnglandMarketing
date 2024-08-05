@@ -94,7 +94,7 @@ const BannerThree = () => {
         </li>
         <li className="shape shape-5">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/bubble-4.png"}
+            src={process.env.PUBLIC_URL + "/images/others/bubble4Small.png"}
             alt="Bubble"
           />
         </li>

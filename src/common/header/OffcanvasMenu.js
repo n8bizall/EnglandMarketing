@@ -13,19 +13,6 @@ const OffcanvasMenu = ({ offcanvasShow, offcanvasHide }) => {
     >
       <Offcanvas.Header closeButton></Offcanvas.Header>
       <Offcanvas.Body>
-        <form action="#" className="side-nav-search-form">
-          <div className="form-group">
-            <input
-              type="text"
-              className="search-field"
-              name="search-field"
-              placeholder="Search..."
-            />
-            <button className="side-nav-search-btn">
-              <i className="fas fa-search"></i>
-            </button>
-          </div>
-        </form>
         <div className="row ">
           <div className="col-lg-5 col-xl-6">
             <ul className="main-navigation list-unstyled">
@@ -60,7 +47,7 @@ const OffcanvasMenu = ({ offcanvasShow, offcanvasHide }) => {
                   </p>
                 </address>
                 <address className="address">
-                  <span className="title">We're Available 24/7. Call Now.</span>
+                  <span className="title">We're Available. Call Now.</span>
                   <a href="tel:9375806559" className="tel">
                     <FaPhone /> (937) 580-6559
                   </a>

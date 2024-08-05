@@ -31,7 +31,7 @@ const PricingTable = () => {
           <ul className="shape-group-3 list-unstyled">
             <li className="shape shape-2">
               <img
-                src={process.env.PUBLIC_URL + "/images/others/bubble-4.png"}
+                src={process.env.PUBLIC_URL + "/images/others/bubble4Small.png"}
                 alt="shape"
               />
             </li>

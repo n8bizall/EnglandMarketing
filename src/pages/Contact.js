@@ -55,19 +55,19 @@ const Contact = () => {
           <ul className="list-unstyled shape-group-12">
             <li className="shape shape-1">
               <img
-                src={process.env.PUBLIC_URL + "/images/others/bubble-15.png"}
+                src={process.env.PUBLIC_URL + "/images/others/bubble8.png"}
                 alt="Bubble"
               />
             </li>
             <li className="shape shape-2">
               <img
-                src={process.env.PUBLIC_URL + "/images/others/bubble-8.png"}
+                src={process.env.PUBLIC_URL + "/images/others/bubble8.png"}
                 alt="Bubble"
               />
             </li>
             <li className="shape shape-3">
               <img
-                src={process.env.PUBLIC_URL + "/images/others/circle-3.png"}
+                src={process.env.PUBLIC_URL + "/images/others/bubble13.png"}
                 alt="Circle"
               />
             </li>

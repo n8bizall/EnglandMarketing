@@ -283,6 +283,7 @@ html {
             }
         }
         &.shape-2 {
+            margin-bottom:-125px;
             right: auto;
             left: 200px;
             @media #{$laptop-device} {

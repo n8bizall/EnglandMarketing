@@ -16,13 +16,6 @@ const BannerSocialMedia = () => {
             ensuring it shines brightly for those eager to interact with your
             products or services.
           </p>
-
-          <Tilty perspective={3000}>
-            <img
-              src={process.env.PUBLIC_URL + "/images/banner/sm.webp"}
-              alt="Shape"
-            />
-          </Tilty>
         </div>
       </div>
     </div>

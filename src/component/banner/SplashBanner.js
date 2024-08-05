@@ -63,13 +63,13 @@ const SplashBanner = () => {
       <ul className="list-unstyled shape-group-20">
         <li className="shape shape-1">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/bubble-39.png"}
+            src={process.env.PUBLIC_URL + "/images/others/bubble39=.png"}
             alt="Bubble"
           />
         </li>
         <li className="shape shape-4">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/bubble-14.png"}
+            src={process.env.PUBLIC_URL + "/images/others/bubble14.png"}
             alt="Bubble"
           />
         </li>
@@ -81,7 +81,7 @@ const SplashBanner = () => {
         </li>
         <li className="shape shape-7">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/bubble-31.png"}
+            src={process.env.PUBLIC_URL + "/images/others/bubble13.png"}
             alt="Bubble"
           />
         </li>

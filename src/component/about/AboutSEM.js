@@ -17,7 +17,7 @@ const AboutSEM = () => {
             <div className="why-choose-us">
               <div className="section-heading heading-left">
                 <span className="subtitle">SEM</span>
-                <h3 className="title">Why branding matters?</h3>
+                <h3 className="title">Why choose us?</h3>
               </div>
               <Accordion defaultActiveKey="1">
                 <Accordion.Item eventKey="1">
@@ -79,7 +79,7 @@ const AboutSEM = () => {
           </div>
           <div className="col-xl-5 col-lg-6 offset-xl-1">
             <div className="contact-form-box shadow-box mb--30">
-              <h3 className="title">Get a free SEM quote now</h3>
+              <h3 className="title">Get a free SEM quote</h3>
               <FormOne />
             </div>
           </div>

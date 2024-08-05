@@ -15,7 +15,7 @@ const BannerSEM = () => {
                 delay={100}
               >
                 <h1 className="title">
-                  Search Engine Marketing ​(aka Google & Bing Ads)
+                  Search Engine Marketing ​(aka Googleads).
                 </h1>
                 <span className="subtitle">
                   Search Engine Marketing (SEM) is the spark that ignites
@@ -30,11 +30,12 @@ const BannerSEM = () => {
                   to={process.env.PUBLIC_URL + "/contact"}
                   className="em-btn btn-fill-primary btn-large"
                 >
-                  Get Started
+                  Learn More
                 </Link>
               </AnimationOnScroll>
             </div>
           </div>
+
           <div className="col-lg-6">
             <div className="banner-thumbnail">
               <AnimationOnScroll
@@ -45,7 +46,9 @@ const BannerSEM = () => {
               >
                 <div className="large-thumb">
                   <img
-                    src={process.env.PUBLIC_URL + "/images/banner/window.png"}
+                    src={
+                      process.env.PUBLIC_URL + "/images/banner/semSearch.png"
+                    }
                     alt="Laptop"
                   />
                 </div>
@@ -55,7 +58,16 @@ const BannerSEM = () => {
                 duration={2}
                 delay={300}
                 animateOnce={true}
-              ></AnimationOnScroll>
+              >
+                <div className="large-thumb-2">
+                  <img
+                    src={
+                      process.env.PUBLIC_URL + "/images/banner/poses-lady.png"
+                    }
+                    alt="Laptop"
+                  />
+                </div>
+              </AnimationOnScroll>
               <ul className="list-unstyled shape-group">
                 <li className="shape shape-1">
                   <AnimationOnScroll
@@ -64,12 +76,14 @@ const BannerSEM = () => {
                     delay={800}
                     animateOnce={true}
                   >
-                    <img
-                      src={
-                        process.env.PUBLIC_URL + "/images/banner/chat-group.png"
-                      }
-                      alt="chat"
-                    />
+                    <div className="large-toe">
+                      <img
+                        src={
+                          process.env.PUBLIC_URL + "/images/banner/semComp-.png"
+                        }
+                        alt="chat"
+                      />
+                    </div>
                   </AnimationOnScroll>
                 </li>
               </ul>
@@ -80,37 +94,37 @@ const BannerSEM = () => {
       <ul className="list-unstyled shape-group-21">
         <li className="shape shape-1">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/bubble-39.png"}
+            src={process.env.PUBLIC_URL + "/images/others/bubble39=.png"}
             alt="Bubble"
           />
         </li>
         <li className="shape shape-2">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/bubble-38.png"}
+            src={process.env.PUBLIC_URL + "/images/others/38b-.png"}
             alt="Bubble"
           />
         </li>
         <li className="shape shape-3">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/bubble-14.png"}
+            src={process.env.PUBLIC_URL + "/images/others/bubble14.png"}
             alt="Bubble"
           />
         </li>
         <li className="shape shape-4">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/bubble-14.png"}
+            src={process.env.PUBLIC_URL + "/images/others/bubble14.png"}
             alt="Bubble"
           />
         </li>
         <li className="shape shape-5">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/bubble-14.png"}
+            src={process.env.PUBLIC_URL + "/images/others/bubble14.png"}
             alt="Bubble"
           />
         </li>
         <li className="shape shape-6">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/bubble-40.png"}
+            src={process.env.PUBLIC_URL + "/images/others/bubble40.png"}
             alt="Bubble"
           />
         </li>

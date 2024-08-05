@@ -59,7 +59,7 @@ const SplashHeader = () => {
                     href="https://england-marketing.com/"
                     className="em-btn btn-fill-primary"
                   >
-                    Contact Now!
+                    Contact!
                   </a>
                 </li>
               </ul>

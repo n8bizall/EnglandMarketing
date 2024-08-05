@@ -1,62 +1,52 @@
 [
     [
+     
         {
             "id": 1,
-            "width_img": "/images/others/TGfrontPage.png",
-            "height_img": "/images/others/TGfrontPage.png",
-            "title": "Tattoo Artists"
-        },
-        {
-            "id": 2,
             "width_img": "/images/others/blueMedFrontPage.jpg",
             "height_img": "/images/others/blueMedFrontPage.jpg",
             "title": "Health & Beauty"
+        },
+        {
+            "id": 2,
+            "width_img": "/images/others/HipFrontPage.jpg",
+            "height_img": "/images/others/HipFrontPage.jpg",
+            "title": "Tattoo Artists"
         },
         {
             "id": 3,
           
             "width_img": "/images/others/gEMcITYFRONTpAGE.png",
             "height_img": "/images/others/gEMcITYFRONTpAGE.png",
-            "title": "Health & Beauty"
+            "title": "Permanent Cosmetics"
         },
+  
         {
             "id": 4,
-            "width_img": "/images/others/HipFrontPage.jpg",
-            "height_img": "/images/others/HipFrontPage.jpg",
-            "title": "Artists"
-        },
-        {
-            "id": 5,
             "width_img": "/images/others/huntsVegas.jpg",
             "height_img": "/images/others/huntsVegas.jpg",
             "title": "Event Marketing"
         },
         {
-            "id": 6,
+            "id": 5,
             "width_img": "/images/banner/construction.jpg",
             "height_img": "/images/banner/construction.jpg",
             "title": "Construction"
         },
         {
-            "id": 7,
+            "id": 6,
             "width_img": "/images/banner/law.jpg",
             "height_img": "/images/banner/law.jpg",
             "title": "Legal"
         },
         {
-            "id": 8,
-            "width_img": "/images/banner/poochiePalace.jpg",
-            "height_img": "/images/banner/poochiePalace.jpg",
-            "title": "Pet Services"
-        },
-        {
-            "id": 9,
+            "id": 7,
             "width_img": "/images/banner/korrect.jpg",
             "height_img": "/images/banner/korrect.jpg",
-            "title": "Home Services"
+            "title": "Professional Services"
         },
         {
-            "id": 10,
+            "id": 8,
             "width_img": "",
             "height_img": "/images/others/demo-coming-wide.png",
             "title": "Your Business!"
@@ -67,74 +57,73 @@
             "id": 1,
             "icon": "/images/icon/react.png",
             "title": "Save Time",
-            "para": "By allowing a professional to handle your website, your leads, your SEO, your advertising, etc. it leaves more room for you to do what YOU do best, which is manage your business and impress your new clients."
+            "para": "Letting a professional manage your website, leads, SEO, and advertising frees you to focus on what you do best—running your business and impressing clients."
         },
         {
             "id": 2,
             "icon": "/images/icon/code-2.png",
             "title": "More Leads",
-            "para": "The majority of our services focus on bringing in new business; long-term SEO to boost your online rankings, Google Ads management to get the best results possible for your allotted budget, and Social Media Advertising to reach the right audience for your business, at the right time."
+            "para": "Our services aim to increase business with long-term SEO, Google Ads management, and Social Media Advertising, ensuring your brand reaches the right audience."
         },
         {
             "id": 3,
             "icon": "/images/icon/sass.png",
             "title": "Improve Efficiency",
-            "para": "With our education discipline and experience combined, we focus on organization and getting the best results possible for your efforts and for your budget. We make the most out of potential clients, as well as existing clients and repeat business. Specializing in target-marketing and getting max results from all angles."
+            "para": "Our experience and organization help maximize your budget and efforts, targeting both new and repeat clients for optimal results from every marketing angle."
         },
-       
         {
             "id": 4,
             "icon": "/images/icon/loading.png",
             "title": "Better Rankings",
-            "para": "Almost all of the work we do will make your business more popular online and in front of your target audience. Our SEO services include reputation management, online business listing creation & management, blog and content writing, back-end SEO work and getting your business on top according to ever changingGoogle's algorithm."
+            "para": "We enhance your online presence with SEO services like reputation management, business listings, and content writing, adapting to Google's evolving algorithm."
         },
         {
             "id": 5,
             "icon": "/images/icon/responsive.png",
-            "title": "Fully <br> Ongoing Advice <br>& Ideas ",
-            "para": "Having someone to turn to as a business owner to ask all of the hard marketing questions, is invaluable. My advice is free and the work I do is full of passion and precision. I'm always here to chat about ideas, things you can do on your own, and things I'm positive I can help you excel at."
+            "title": "Ongoing Advice & Ideas ",
+            "para": "As a business owner, having expert advice is invaluable. My guidance is free, and my work is driven by passion, always ready to discuss new ideas and strategies."
         },
         {
             "id": 6,
             "icon": "/images/icon/icon-13.png",
-            "title": "Modern <br> Design",
-            "para": "England Marketing offers a contemporary creative design ideal for Creative, Digital, and Corporate agencies. It provides the perfect solution for your digital agency's needs."
+            "title": "Modern Design",
+            "para": "England Marketing delivers modern, creative design solutions tailored for Creative, Digital, and Corporate agencies, perfect for your digital needs."
         },
         {
             "id": 71,
             "icon": "/images/icon/code.png",
             "title": "Well Organized  <br> Codes",
-            "para": "The coding structure of our items is organized so other developers can easily recognize the pattern and make updates as needed."
+            "para": "Our coding structure is organized for easy recognition and updates by other developers, ensuring seamless collaboration and maintenance."
         },
         {
             "id": 81,
             "icon": "/images/icon/icon-20.png",
             "title": "Website <br> Overhaul",
-            "para": "Updating your website is a strategic investment that can lead to enhanced user experience, improved performance, increased security, and better alignment with current digital trends and standards. This, in turn, can drive more traffic, improve customer satisfaction, and ultimately, boost business growth."
+            "para": "Revamping your website enhances user experience, performance, security, and alignment with current digital trends, driving more traffic and business growth."
         },
         {
             "id": 91,
             "icon": "/images/icon/icon-21.png",
             "title": "Mobile <br> Development",
-            "para": "Mobile apps allow businesses to collect valuable user data, enabling better insights into customer behavior and preferences, which can inform marketing strategies and product development."
+            "para": "Mobile apps enable valuable user data collection, offering insights into customer behavior to inform marketing strategies and product development."
         },
         {
             "id": 10,
             "icon": "/images/icon/icon-22.png",
             "title": "​End-to-End Expertise <br>",
-            "para": "Our website services offer a full spectrum of website love, from designing websites from scratch, utilizing existing platforms you may have chosen, to revamping your existing build; My end-to-end expertise ensures a seamless and cohesive approach to your online storefront."
+            "para": "Our comprehensive website services cover everything from designing new sites, utilizing chosen platforms, to revamping existing builds, ensuring a seamless online presence."
         },
         {
             "id": 11,
             "icon": "/images/icon/hart-rate.png",
             "title": "Creative Designs Tailored to Your Brand",
-            "para": "Whether creating a website from scratch or revamping an existing one, I deliver creative designs tailored to your specific brand and personality. My designs not only reflect your business identity but also prioritize user experience and functionality for maximum conversions and a decreased bounce rate."
+            "para": "My designs, whether new or revamped, reflect your brand identity and prioritize user experience for maximum conversions and minimal bounce rates."
         },
         {
             "id": 12,
             "icon": "/images/icon/icon-24.png",
             "title": "Responsive <br> User-Friendly",
-            "para": "Our websites are built to be mobile responsive and user-friendly, ensuring optimal viewing experiences across all devices. Whether on a desktop, tablet, or mobile, your audience can access and navigate your website effortlessly and still get the feel of your personal brand."
+            "para": "Our websites are mobile-responsive and user-friendly, providing a consistent and engaging experience across all devices, while showcasing your brand."
         }
     ]
 ]
