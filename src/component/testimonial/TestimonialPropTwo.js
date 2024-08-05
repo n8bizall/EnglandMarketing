@@ -1,7 +1,4 @@
 import React from "react";
-import TestimonialData from "../../data/testimonial/TestimonialData.json";
-
-const testimonialData = TestimonialData;
 
 const TestimonialItem = ({
   colSize,
