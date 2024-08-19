@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import HeaderOne from "../common/header/HeaderOne";
 import BlogData from "../data/blog/BlogData.json";
-import BreadCrumbOne from "../elements/breadcrumb/BreadCrumbOne";
+
 import BlogSidebar from "../component/blog/BlogSidebar";
 import BlogAuthor from "../component/blog/BlogAuthor";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
@@ -24,7 +24,6 @@ const BlogDetails = () => {
       <ColorSwitcher />
       <main className="main-wrapper">
         <HeaderOne />
-        {/* <BreadCrumbOne title={detailsBlog.title} page="Blog" /> */}
         <div className="section-padding-equal">
           <div className="container">
             <div className="row row-40">
