@@ -125,12 +125,12 @@ const Splash = () => {
                 alt="Circle"
               />
             </li>
-            <li className="shape shape-3">
+            {/* <li className="shape shape-3">
               <img
                 src={process.env.PUBLIC_URL + "/images/others/bubbleGrey.png"}
                 alt="Circle"
               />
-            </li>
+            </li> */}
           </ul>
         </div>
 

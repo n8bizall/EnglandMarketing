@@ -7,8 +7,8 @@ const TestimonialSocial = () => {
     <div className="section section-padding">
       <div className="container">
         <SectionTitle
-          title="From getting started..."
-          description="To every detail we will handle all of your social media management."
+          title="Voices of Satisfaction"
+          description="Real Feedback from Clients Who Trust Our Expertise"
           textAlignment="heading-left"
           textColor=""
         />

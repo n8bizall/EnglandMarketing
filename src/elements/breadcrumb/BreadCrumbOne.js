@@ -6,15 +6,6 @@ const BreadCrumbOne = ({ title, page }) => {
     <div className="breadcrum-area">
       <div className="container">
         <div className="breadcrumb">
-          <ul className="list-unstyled">
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/"}>Home</Link>
-            </li>
-            <li
-              className="active"
-              dangerouslySetInnerHTML={{ __html: page }}
-            ></li>
-          </ul>
           <h1
             className="title h2"
             dangerouslySetInnerHTML={{ __html: title }}

@@ -24,7 +24,7 @@ const BlogDetails = () => {
       <ColorSwitcher />
       <main className="main-wrapper">
         <HeaderOne />
-        <BreadCrumbOne title={detailsBlog.title} page="Blog" />
+        {/* <BreadCrumbOne title={detailsBlog.title} page="Blog" /> */}
         <div className="section-padding-equal">
           <div className="container">
             <div className="row row-40">
